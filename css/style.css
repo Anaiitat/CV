@@ -1,38 +1,10 @@
-@font-face {
-    font-family:"Lato";
-    src: url("/fonts/Lato/Lato-Regular.ttf") format('truetype');
-}
-
-@font-face {
-    font-family:"Lato_bold";
-    src: url("/fonts/Lato/Lato-Bold.ttf") format('truetype');
-}
-
-@font-face {
-    font-family:"Lato_italic";
-    src: url("/fonts/Lato/Lato-Italic.ttf") format('truetype');
-}
-
-@font-face {
-    font-family:"Raleway";
-    src: url("/fonts/Raleway/static/Raleway-Regular.ttf") format('truetype');
-}
-
-@font-face {
-    font-family:"Raleway_blod";
-    src: url("/fonts/Raleway/Raleway-Bold.ttf") format('truetype');
-}
-
-@font-face {
-    font-family:"Raleway_italic";
-    src: url("/fonts/Raleway/Raleway-Italic.ttf") format('truetype');
-}
-
-
-
 body{
     width: 1160px;
     margin: auto;
+    font-family: "Raleway";
+}
+
+p{
     font-family: "Raleway";
 }
 
@@ -47,6 +19,14 @@ body{
     
 }
 
+#profil h2{
+    font-weight:bold;
+    background-color: #782221;
+    width: auto;
+    padding: 0px;
+}
+
+
 #photo{
     width: 150px;
     border-radius: 170px;
@@ -54,13 +34,21 @@ body{
     gap: 150px; 
 }
 
+#photo:hover{
+    cursor: zoom-in;
+}
+
+
 h1{
     word-spacing: 10px;
     font-family:"Lato";
+    font-weight: normal;
 }
 
 h2{
     font-family: "Lato_bold";
+    font-size:1.2rem;
+    ;
 }
 
 #contact{
@@ -77,8 +65,13 @@ a{
     color: white;
 }
 
+address a:hover{
+    text-decoration: underline;
+}
+
 main{
     display: flex;
+    border-right: solid 2px black;
 
 }
 
@@ -93,8 +86,13 @@ div{
 
 div h2{
     background-color: #dbc2a4;
-    padding-left: 20px;
+    padding: 10px;
     width: 250px;
+}
+
+aside h2{
+    padding-left: 20px;
+    
 }
 
 #description{
@@ -119,14 +117,39 @@ article{
 }
 
 
-section h2{
-    background-color: #dbc2a4;
+article h2{
     border-left: solid 8px #782221;
     padding-left: 10px; 
+    width: auto;
+}
+
+article div:hover{
+    border-right: 5px solid #782221 ;
+}
+
+#compétence li:hover{
+    border-right: 5px solid #782221 ;
 }
 
 footer{
     background-color: #782221;
     display: flex;
-    height: 200px;
+    height: 180px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    padding-inline: 10px;
+}
+
+footer img:hover{
+    opacity: 0.8;
+}
+
+footer p{
+    color: white;
 }
