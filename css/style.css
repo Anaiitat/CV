@@ -1,0 +1,155 @@
+body{
+    width: 1160px;
+    margin: auto;
+    font-family: "Raleway";
+}
+
+p{
+    font-family: "Raleway";
+}
+
+#profil{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #782221;
+    height: 400px;
+    
+}
+
+#profil h2{
+    font-weight:bold;
+    background-color: #782221;
+    width: auto;
+    padding: 0px;
+}
+
+
+#photo{
+    width: 150px;
+    border-radius: 170px;
+    box-shadow: 0px 0px 5px 1px #dbc2a4;
+    gap: 150px; 
+}
+
+#photo:hover{
+    cursor: zoom-in;
+}
+
+
+h1{
+    word-spacing: 10px;
+    font-family:"Lato";
+    font-weight: normal;
+}
+
+h2{
+    font-family: "Lato_bold";
+    font-size:1.2rem;
+    ;
+}
+
+#contact{
+    height: 100px;
+    background-color:#2c1d27;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+address a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    border-right: solid 2px black;
+
+}
+
+#aside{
+    background-color: #782221;
+    width: 350px;
+}
+
+div{
+    padding-bottom: 10px;
+}
+
+div h2{
+    background-color: #dbc2a4;
+    padding: 10px;
+    width: 250px;
+}
+
+aside h2{
+    padding-left: 20px;
+    
+}
+
+#description{
+    width: 250px;
+    color: white;
+    text-indent: 20px;
+    padding-left: 20px;
+    ;
+}
+
+#interet  {
+    color: white;
+}
+
+#langue  {
+    color: white;
+}
+
+article{
+    width: 810px;
+    margin: 20px;
+}
+
+
+article h2{
+    border-left: solid 8px #782221;
+    padding-left: 10px; 
+    width: auto;
+}
+
+article div:hover{
+    border-right: 5px solid #782221 ;
+}
+
+#compétence li:hover{
+    border-right: 5px solid #782221 ;
+}
+
+footer{
+    background-color: #782221;
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    padding-inline: 10px;
+}
+
+footer img:hover{
+    opacity: 0.8;
+}
+
+footer p{
+    color: white;
+}
